@@ -1,6 +1,6 @@
 # Minilib.Net.Request
 
-Defined in minilib-net@0.8.2
+Defined in minilib-net@0.8.3
 
 HTTP request and response.
 - Parses HTTP request headers and query strings, POST data
@@ -66,7 +66,7 @@ Type: `Std::String -> Minilib.Net.Request::Response -> Minilib.Net.Request::Resp
 
 `response.content_type(type)` sets the `Content-Type` header.
 You can specify an alias for the content type (e.g. "text", "json").
-See the definition of `_CONTENT_TYPE_ALIASES` for a list of available aliases.
+See the definition of `__CONTENT_TYPE_ALIASES` for a list of available aliases.
 
 #### end
 

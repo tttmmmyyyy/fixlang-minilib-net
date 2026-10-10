@@ -1,3 +1,7 @@
+## 0.8.3
+### Changed
+- Renamed the values whose names start with `_` and a capital letter to start with `__` (`_BUFSIZE` -> `__BUFSIZE`, `_CONTENT_TYPE_ALIASES` -> `__CONTENT_TYPE_ALIASES`, `_STATUS_REASON` -> `__STATUS_REASON`). Fix is to read such a name as the name of a type, a trait, a namespace or a module (tttmmmyyyy/fixlang#812).
+
 ## 0.8.2
 ### Changed
 - Added indirect dependencies.
